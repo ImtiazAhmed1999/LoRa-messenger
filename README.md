@@ -22,9 +22,10 @@ This design uses a 3.3V voltage to meet the requirements of the communication de
 ### Components
 
 - 🕹️ **ESP32 Microcontroller**: Chosen for its versatility.
-- 📡 **LoRa Transceiver Modules**: Leveraging LoRa's reputation for long-range communication.
+- 📡 **LoRa Transceiver Modules(SX1278)**: Leveraging LoRa's reputation for long-range communication.
 - ⌨️ **Custom-Made Keypad**: 12 push buttons arranged in a 4x3 matrix configuration.
-- 🖥️ **OLED Display**: Incorporates a vibrant OLED screen for a user-friendly interface.
+- 🖥️ **I2C OLED Display 0.96"**: Incorporates a vibrant OLED screen for a user-friendly interface.
+- 🔄 **Buck Module (MP1584)**: Converts the voltage to 3.3V, ensuring compatibility with the LoRa module.
 - 🔄 **INA219 Current Sensor**: Used for measurement of voltage, current, and power consumption.
 - 📡 **433MHz Spring Type Antenna**: Enhances communication range and signal strength.
 
